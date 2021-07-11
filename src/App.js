@@ -21,13 +21,6 @@ export default function App() {
       <Router>
         <Suspense fallback={<p>Loading ...</p>}>
           <Switch>
-            {/* <IsUserLoggedIn user={user} loggedInPath={ROUTES.DASHBOARD} path={ROUTES.LOGIN}>
-              <Login />
-            </IsUserLoggedIn>
-            <IsUserLoggedIn user={user} loggedInPath={ROUTES.DASHBOARD} path={ROUTES.SIGN_UP}>
-              <SignUp />
-            </IsUserLoggedIn> */}
-
             <Route path={ROUTES.LOGIN} component={Login} />
             <Route path={ROUTES.SIGN_UP} component={SignUp} />
             <Route path={ROUTES.PROFILE} component={Profile} />

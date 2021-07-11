@@ -23,3 +23,11 @@ useReducer:
 npm i -g loadtest
 npm i -g serve
 serve -s build
+
+Deleted
+{/* <IsUserLoggedIn user={user} loggedInPath={ROUTES.DASHBOARD} path={ROUTES.LOGIN}>
+              <Login />
+            </IsUserLoggedIn>
+            <IsUserLoggedIn user={user} loggedInPath={ROUTES.DASHBOARD} path={ROUTES.SIGN_UP}>
+              <SignUp />
+            </IsUserLoggedIn> */}
