@@ -1,0 +1,25 @@
+npm i date-fns
+npm i firebase
+npm i react-loading-skeleton
+exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/karlhadwen/eslint-prettier-airbnb-react/master/eslint-prettier-config.sh 2> /dev/null)
+2-2-100-1
+npm i react-router-dom
+npm i tailwindcss -D 
+npm i prop-types -D 
+npm i postcss-cli -D
+npm i npm-run-all -D
+npm i autoprefixer -D
+npm i @welldone-software/why-did-you-render
+if you wanna do async funtion, stick in useEffect()
+6:54
+
+useReducer: 
+- is something you use aside from using useState
+- it will allow you to better assign values for Arrays and Objects
+- the dispatch is where you can set the values, it's like setState
+- you can declare multiple variables in one useReducer declaration
+
+
+npm i -g loadtest
+npm i -g serve
+serve -s build
